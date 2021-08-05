@@ -7,14 +7,14 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   function generateExcuse() {
-    let who = ["The dog", "My grandma", "His turtle", "My bird"];
-    let action = ["ate", "peed", "crushed", "broke"];
+    let who = ["The dog", "Her grandma", "My cat", "My lama"];
+    let action = ["ate", "peed", "screamed", "broke"];
     let what = ["my homework", "the keys", "the car", "my food"];
     let when = [
-      "before the class",
+      "before the funeral",
       "right on time",
       "when I finished",
-      "while I was praying"
+      "while I was crying"
     ];
     let positionWho = Math.floor(Math.random() * 4);
 
